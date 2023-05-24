@@ -1,0 +1,11 @@
+def add(a:float,b:float):
+    c:float=a+b
+    return(c)
+a=float(input("Enter first number"))
+b=float(input("Enter second number"))
+sum=add(a,b)
+print("Sum is ",sum)
+
+def add(a:float,b:float):
+    return(a+b)
+print("Sum is ",add(5,10.1))
