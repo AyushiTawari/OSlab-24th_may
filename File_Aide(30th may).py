@@ -1,5 +1,5 @@
 # Open the file for writing
-with open('file.txt', 'w') as f:
+with open('file_aide.txt', 'w') as f:
 	# Define the data to be written
 	data = ['This is the first line', 'This is the second line', 'This is the third line']
 	# Use a for loop to write each line of data to the file
@@ -8,4 +8,7 @@ with open('file.txt', 'w') as f:
 		# Optionally, print the data as it is written to the file
 		print(line)
 # The file is automatically closed when the 'with' block ends
-
+#Output
+This is the first line
+This is the second line
+This is the third line
