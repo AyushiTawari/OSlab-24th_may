@@ -44,5 +44,20 @@ if __name__ == '__main__':
                 proc[i][3] = 1 
     print("\nAvg Waiting Time is ", (wait_time * 1) / total_p_no)
     print("Avg Turnaround Time is ", (turnaround_time * 1) / total_p_no)
+    
+    Output
+    Enter Total Process Number: 
+3
+Enter process arrival time and burst time
+0 1
+Enter process arrival time and burst time
+2 3
+Enter process arrival time and burst time
+3 4
+Enter time quantum
+1
+
+Avg Waiting Time is  0.6666666666666666
+Avg Turnaround Time is  3.3333333333333335
 
 
